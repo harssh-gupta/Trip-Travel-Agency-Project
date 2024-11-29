@@ -1,0 +1,769 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: none;
+}
+header{
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+}
+.navbar{
+    /* border: 2px solid green; */
+    display: flex;
+    height: 70px;
+    /* width: 100vw;     */
+    align-items: center;
+    background-color: whitesmoke;
+    /* margin-bottom: 100px; */
+}
+.leftdiv{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    margin-left: 8% ;
+    margin-right: 25%;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    background-image:url(th-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rightdiv{
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 80%;
+}
+.rightdiv a{
+   text-decoration: none;
+   font-size: large;
+   font-style:inherit;
+   color: black;
+}
+.rightdiv a:hover{
+    text-decoration:black underline;
+    color: red;
+    
+    /* font-style:italic; */
+}
+.rightdiv i{
+    color: blue;
+   font-size: 30px;
+}
+.rightdiv i:hover{
+    /* text-decoration: underline; */
+    color: rgb(40, 68, 83);
+}
+.rightdiv button{
+    padding: 11px 12px 11px 12px;
+    border-top-left-radius:30px; 
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px; 
+    border-bottom-right-radius:30px;
+    background-color:rgb(61, 125, 142);
+    color: white;
+    border: transparent;
+}
+.hero{
+    /* border: 2px solid green; */
+    height: 90vh;
+}
+ .image {
+   /* display: fl
+   justify-content: center;
+   align-items: center; */
+   overflow: hidden;
+   background-image:url(clouds-cold-dawn-2104152.jpg);
+   height: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.image h1{
+    overflow: hidden;
+    font-size: 4.5em;
+    position: relative;
+    left: 15%;
+    top: 30%;
+    color: black;
+}
+
+.image p{
+    overflow: hidden;
+    font-size: 3.5em;
+    position: relative;
+    left: 20%;
+    top: 35%;
+    color: white;
+}
+.hero .hero_btn1{
+    overflow: hidden;
+    position: relative;
+    top: 45%;
+    left: 32%;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding: 16px 22px 16px 22px;
+    border-top-left-radius:30px; 
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px; 
+    border-bottom-right-radius:30px; 
+    background-color: rgb(61, 125, 142);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-style: inherit;
+    margin-right: 30px;
+}
+.hero .hero_btn2{
+    overflow: hidden;
+    position: relative;
+    top: 45%;
+    left: 32%;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding: 16px 22px 16px 22px;
+    border-top-left-radius:30px; 
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px; 
+    border-bottom-right-radius:30px; 
+    background-color: transparent;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-style: inherit;
+}
+.identity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height:250px;
+   /* border: 2px solid red; */
+   background-color: rgb(54, 136, 213);
+}
+.identity input{
+    padding: 16px 22px 16px 22px;
+    border-top-left-radius:30px; 
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px; 
+    border-bottom-right-radius:30px; 
+    background-color: white;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-style: inherit;
+    margin-right: 30px;
+}
+.identity .checkin{
+    color: gray;
+    font-size: 1.2em;
+}
+.identity .checkout{
+    color: gray;
+    font-size: 1.2em;
+}
+.identity .inq{
+    padding: 16px 22px 16px 22px;
+    border-top-left-radius:30px; 
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px; 
+    border-bottom-right-radius:30px; 
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-style: inherit;
+    margin-right: 30px;
+    border: 2px solid white;
+    text-decoration: none;
+}
+.identity .div{
+    position: relative;  
+    top: -50px;
+    left:   5em;
+    color: white;
+    font-size: 20px;
+}
+.popular_destination{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.popular_destination p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size:1.2em;
+    color: rgba(0, 0, 255, 0.525);
+}   
+.popular_destination h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.825);
+}   
+.popular_destination h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 20px;
+}
+.uncoverimages{
+    /* border: 2px solid red; */
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.uncoverimages .img1{
+    width: 20%;
+    /* border: 2px solid black; */
+    height: 70%;
+    background-image: url(goa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 2.5em;
+    padding-left:10px;
+    color: transparent;
+
+}
+.uncoverimages .img2{
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 70%;
+ background-image: url(manali.jpg);
+ background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 2.5em;
+    padding-left:10px;
+    color: transparent;
+}
+.uncoverimages .img3{
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 70%;
+    background-image:url(sheshnag.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 2.5em;
+    padding-left:10px;
+    color: transparent;
+}
+.uncoverimages .img1:hover{
+    color: black;
+    text-decoration: red underline;
+}
+.uncoverimages .img2:hover{
+    color: black;
+    text-decoration: red underline;
+}
+
+.uncoverimages .img3:hover{
+    color: black;
+    text-decoration: red underline;
+}
+.moredestinations{
+    /* border: 2px solid green; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.moredestinations a{
+    position: relative;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+    /* border: 2px solid black; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(61, 125, 142);
+    color: white;
+    border: none;
+
+}
+.popular_packeges{
+    /* border: 2px solid orangered; */
+    margin-top: 12%;
+}
+.popular_packeges p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size:1.2em;
+    color: rgba(0, 0, 255, 0.525);
+}   
+.popular_packeges h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.825);
+}   
+.popular_packeges h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 20px;
+}
+
+/* trip1 ----> */
+.tripdiv{
+    height: 170vh;
+    /* border: 2px solid green; */
+}
+.tripdiv .trip1{
+    height: 35%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+.trip1 .diva{
+    height: 85%;
+    /* border: 2px solid yellow; */
+    width: 25%;
+    margin-right: 5%;
+    background-image: url(image_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.trip1 .divb{
+    height: 85%;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 25%;
+    margin-right: 5%;  
+}
+.trip1 .divb h2{
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8em;
+}
+.trip1 .divb p{
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+.trip1 .divc{
+    height: 85%;
+    /* border: 2px solid yellow; */
+    width: 20%;
+    margin-right: 5%px;
+    background-color: rgba(0, 157, 255, 0.863);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.trip1 .divc a{
+    position: relative;
+    left: 30%;
+    top: 50%;
+    border: 2px solid white;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 800;
+}
+.trip1 .divc a:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.trip1 .divc h1{
+    position: relative;
+    left: 21%;
+    top: 40%;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+/* trip 2-----> */
+
+.tripdiv .trip2{
+    height: 35%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+.trip2 .divd{
+    height: 85%;
+    /* border: 2px solid yellow; */
+    width: 25%;
+    margin-right: 5%;
+    background-image: url(image_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.trip2 .dive{
+    height: 85%;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 25%;
+    margin-right: 5%;  
+}
+.trip2 .dive h2{
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8em;
+}
+.trip2 .dive p{
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+.trip2 .divf{
+    height: 85%;
+    /* border: 2px solid yellow; */
+    width: 20%;
+    margin-right: 5%px;
+    background-color: rgba(0, 157, 255, 0.863);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.trip2 .divf a{
+    position: relative;
+    left: 30%;
+    top: 50%;
+    /* border: 2px solid white; */
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 800;
+}
+.trip2 .divf a:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.trip2 .divf h1{
+    position: relative;
+    left: 21%;
+    top: 40%;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+/* trip 3---> */
+.tripdiv .trip3{
+    height: 35%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+.trip3 .divg{
+    height: 85%;
+    /* border: 2px solid yellow; */
+    width: 25%;
+    margin-right: 5%;
+    background-image: url(image_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.trip3 .divh{
+    height: 85%;
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 25%;
+    margin-right: 5%;  
+}
+.trip3 .divh h2{
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8em;
+}
+.trip3 .divh p{
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+.trip3 .divi{
+    height: 85%;
+    /* border: 2px solid yellow; */
+    width: 20%;
+    margin-right: 5%px;
+    background-color: rgba(0, 157, 255, 0.863);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.trip3 .divi a{
+    position: relative;
+    left: 30%;
+    top: 50%;
+    border: 2px solid white;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 800;
+}
+.trip3 .divi a:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.trip3 .divi h1{
+    position: relative;
+    left: 21%;
+    top: 40%;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.allpackeges{
+    margin-top: 7%;
+    margin-bottom: 12%;
+    height: 20vh;
+    /* border:2px solid black; */
+}
+
+/* all packeges button------> */
+.allpackeges a{
+    position: relative;
+    left: 45%;
+    top: 5em;
+    padding: 15px 20px 15px 20px;
+    /* border: 2px solid black; */
+    text-decoration: none;
+    color: white;
+    background-color: rgb(4, 98, 212);
+    border-radius: 30px;
+}
+.photo_gallery{
+    /* border: 2px solid orangered; */
+    margin-top: 12%;
+}
+.photo_gallery p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size:1.2em;
+    color: rgba(0, 0, 255, 0.525);
+}   
+.photo_gallery h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.825);
+}   
+.photo_gallery h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 20px;
+}
+.photo_collection{
+    overflow: hidden;
+    /* border: 2px solid green; */
+    height: 120vh;
+    margin-top: 20px;
+}
+.photo_gallery1{
+    /* overflow: hidden; */
+    display: flex;
+    height: 60%;
+    width: 100vw;
+}
+.photo_collection .diva{
+    /* overflow: hidden; */
+    border: 2px solid pink;
+    height: 70%;
+    width: 24vw;
+    margin: 6% 1% 2% 9%;
+    border-radius: 30px;
+    background-image:url(photo_1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photo_collection .divb{
+    /* overflow: hidden; */
+    /* border: 2px solid pink; */
+    height: 132%;
+    width: 24vw;
+    margin: 6% 1% 5% 0%;
+    border-radius: 30px;
+    background-image:url(photo_2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photo_collection .divc{
+    /* overflow: hidden; */
+    /* border: 2px solid pink; */
+    height: 70%;
+    width: 24vw;
+    margin: 6% 5% 2% 0%;
+    border-radius: 30px;
+    background-image:url(photo_3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photo_gallery2{
+    /* overflow: hidden; */
+    /* border: 2px solid blue; */
+    height: 35%;
+    margin-top: -41px;
+    display: flex;
+}
+.photo_gallery2 .divd{
+    /* overflow: hidden; */
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 24vw;
+    margin: 0% 1% 2% 9%;
+    border-radius: 30px;
+    background-image: url(photo_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photo_gallery2 .dive{
+    /* overflow: hidden; */
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 24vw;
+    margin: 0% 1% 0% 25.6%;
+    border-radius: 30px;
+    background-image:url(photo_5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.action{
+    overflow: hidden;
+    height: 60vh;
+    background-color: rgb(53, 112, 195);
+}
+.action p{
+    /* overflow: hidden; */
+    position: relative;
+    top: 20%;
+    left: 20%;
+    font-size: 1.5em;
+
+}
+.action h1{
+    /* overflow: hidden; */
+    position: relative;
+    top: 25%;
+    left: 18%;
+    font-size: 2.5em;
+}
+.action p1{
+    /* overflow: hidden; */
+    position: relative;
+    top: 30%;
+    left: 18%;
+    font-size: 1.5em;
+}
+.action a{
+    /* overflow: hidden; */
+    position: relative;
+    top: -30%;
+    left: 60%;
+    /* font-size: 1.5em; */
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.action a:hover{
+    background-color: rgba(255, 255, 255, 0.252);
+}
+.contact_details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 70vh;
+    background-color: hsl(206, 34%, 20%) ;
+}
+.contact_details  i{
+    color: rgba(255, 255, 255, 0.663);
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+.contact_details .diva h1{
+    font-size: 2.5 em;
+    color: rgba(255, 255, 255, 0.663);
+    font-weight: 300;
+}
+.contact_details .diva p{
+    color: rgba(255, 255, 255, 0.663);
+    font-size: 1.5em;
+    padding-top: 15px;
+    font-weight: 300;
+}
+.contact_details .divb h3{
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.663);
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.contact_details .divb p{
+    color: rgba(255, 255, 255, 0.663);
+    font-weight: 300;
+    padding :5px
+    
+}
+.contact_details .divc p{
+    color: rgba(255, 255, 255, 0.663);
+    font-size: larger;
+    font-weight: 300;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+.contact_details .divc input{
+    padding: 12px 20px 12px 20px ;
+    border-radius: 30px;
+    font-size: larger;
+}
+.contact_details .divc a{
+    position: relative;
+    top: 23px;
+    text-decoration: none;
+    padding: 12px 18% 12px 18% ;
+    border: 2px solid rgba(255, 255, 255, 0.652);
+    color: white;
+    border-radius: 30px;
+    font-size: larger;
+}
+
+
+
+
+

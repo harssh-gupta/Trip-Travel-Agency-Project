@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Packages </title>
+    <style>
+        /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Packages section */
+.packages {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.packages h1 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+.package-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.package-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.package-title h2 {
+    font-size: 1.8rem;
+    color: #0077b6;
+}
+
+.package-title .price {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.package-card p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005f82;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="packages">
+        <div class="container">
+            <h1>Our Travel Packages</h1>
+
+            <div class="package-card">
+                <div class="package-title">
+                    <h2>Goa Beach Vacation</h2>
+                    <p class="price">₹20,999</p>
+                </div>
+                <p>Unwind on the beautiful beaches of Goa, enjoying water sports, lively beach shacks, and tropical sunshine.</p>
+                <a href="#" class="btn">Explore Now</a>
+            </div>
+
+            <div class="package-card">
+                <div class="package-title">
+                    <h2>Himalayan Trekking</h2>
+                    <p class="price">₹35,499</p>
+                </div>
+                <p>Experience the thrill of trekking in the mighty Himalayas, with scenic views, peaceful villages, and adventure.</p>
+                <a href="#" class="btn">Explore Now</a>
+            </div>
+
+            <div class="package-card">
+                <div class="package-title">
+                    <h2>Golden Triangle Tour</h2>
+                    <p class="price">₹28,999</p>
+                </div>
+                <p>Discover the historical gems of Delhi, Agra, and Jaipur with expert guides and luxury accommodation.</p>
+                <a href="#" class="btn">Explore Now</a>
+            </div>
+
+            <div class="package-card">
+                <div class="package-title">
+                    <h2>Kerala Backwaters</h2>
+                    <p class="price">₹22,499</p>
+                </div>
+                <p>Relax on houseboats and explore the serene backwaters, with stops at palm-lined beaches and quaint villages.</p>
+                <a href="#" class="btn">Explore Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Travel Agency Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <style>
+        /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Light blue */
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #0066cc; /* Dark blue */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Destinations section */
+.destinations {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.destinations h1 {
+    text-align: center;
+    color: #0066cc; /* Dark blue */
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-family: 'Merriweather', serif;
+}
+
+/* Destination Card */
+.destination-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #e6f2ff; /* Light blue for card background */
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: scale(1.05);
+}
+
+.destination-image {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.destination-info {
+    padding: 20px;
+    width: 60%;
+}
+
+.destination-info h2 {
+    font-size: 1.8rem;
+    color: #0066cc; /* Dark blue */
+    font-family: 'Merriweather', serif;
+}
+
+.destination-info p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc; /* Dark blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #004c99; /* Darker blue on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="destinations">
+        <div class="container">
+            <h1>Popular Destinations in India</h1>
+
+            <!-- Destination Cards -->
+            <div class="destination-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQisdQxEB1Ie_o0-EAKkUDn9JkjEKoGcskDpA&s" alt="Goa Beach" class="destination-image">
+                <div class="destination-info">
+                    <h2>Goa</h2>
+                    <p>Known for its beautiful beaches, vibrant nightlife, and rich Portuguese heritage, Goa is the perfect getaway for beach lovers and partygoers.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://media.istockphoto.com/id/534757407/photo/backwaters-of-kerala.jpg?s=612x612&w=0&k=20&c=R3qbyk5bJmYmI-u3hnITQR7CBoyYc0Uok3W4BfYoZUw=" alt="Kerala Backwaters" class="destination-image">
+                <div class="destination-info">
+                    <h2>Kerala</h2>
+                    <p>Experience the tranquility of Kerala's backwaters, tea plantations, and serene beaches. Known for its rich culture and Ayurvedic treatments.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRhaiUyMG1haGFsfGVufDB8fDB8fHww" alt="Agra Taj Mahal" class="destination-image">
+                <div class="destination-info">
+                    <h2>Agra</h2>
+                    <p>Home to the iconic Taj Mahal, Agra is a must-visit for history and architecture enthusiasts. A city that reflects India's Mughal legacy.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://plus.unsplash.com/premium_photo-1661964079694-ccfaf7dc8028?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWRhaXB1cnxlbnwwfHwwfHx8MA%3D%3D" alt="Udaipur Rajasthan" class="destination-image">
+                <div class="destination-info">
+                    <h2>Udaipur</h2>
+                    <p>Known as the "City of Lakes," Udaipur offers a royal experience with its stunning palaces, lakes, and historical forts.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://static.toiimg.com/photo/msid-24476893,width-96,height-65.cms" alt="Jaipur Rajasthan" class="destination-image">
+                <div class="destination-info">
+                    <h2>Jaipur</h2>
+                    <p>Famous for its palaces and forts, Jaipur is a city that combines rich history, culture, and modernity, also known as the "Pink City."</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx1sNwP02NVVhimY5DYhW5y_SY8aX1ItOCGQ&s" alt="Rishikesh" class="destination-image">
+                <div class="destination-info">
+                    <h2>Rishikesh</h2>
+                    <p>Rishikesh, the "Yoga Capital of the World," is a peaceful town on the banks of the Ganges, offering spiritual retreats and adventure sports like rafting.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://media.istockphoto.com/id/539018660/photo/taj-mahal-hotel-and-gateway-of-india.jpg?s=612x612&w=0&k=20&c=L1LJVrYMS8kj2rJKlQMcUR88vYoAZeWbYIGkcTo6QV0=" alt="Mumbai" class="destination-image">
+                <div class="destination-info">
+                    <h2>Mumbai</h2>
+                    <p>The bustling metropolis of Mumbai offers a mix of modern skyscrapers, colonial buildings, vibrant markets, and a lively cultural scene.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://static.toiimg.com/thumb/msid-104684413,width-748,height-499,resizemode=4,imgsize-65830/.jpg" alt="Darjeeling" class="destination-image">
+                <div class="destination-info">
+                    <h2>Darjeeling</h2>
+                    <p>Known for its tea plantations, stunning views of the Kanchenjunga, and the famous Darjeeling Himalayan Railway, Darjeeling is a hill station paradise.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 . All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
